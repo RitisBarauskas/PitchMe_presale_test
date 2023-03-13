@@ -7,8 +7,6 @@ class MiddleUXDesigner(BaseApplicant):
 
     def __init__(self, profile: Profile) -> None:
         super().__init__(profile)
-        self.expected_countries = ['united kingdom']
-        self.expected_companies = ['facebook', 'amazon', 'apple', 'netflix', 'google']
         self.expected_roles = ['product designer', 'ux-designer']
         self.expected_skills = ['figma', 'sketch', 'ux-research', 'miro']
 
